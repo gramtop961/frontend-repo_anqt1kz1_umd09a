@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Samples from './components/Samples';
 import Industries from './components/Industries';
 import CTA from './components/CTA';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="min-h-screen bg-background text-foreground">
       <Hero />
       <Features />
+      <Samples />
       <Industries />
       <CTA />
       <footer className="border-t">
@@ -20,6 +22,7 @@ function App() {
           <p>© {new Date().getFullYear()} CallPal.ai. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <a href="#features" className="hover:text-foreground">Features</a>
+            <a href="#samples" className="hover:text-foreground">Samples</a>
             <a href="#industries" className="hover:text-foreground">Industries</a>
             <a href="#contact" className="hover:text-foreground">Contact</a>
           </div>
